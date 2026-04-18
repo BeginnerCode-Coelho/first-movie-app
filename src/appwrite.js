@@ -44,6 +44,7 @@ export async function getTrendingMovies() {
 
   } catch (error) {
     console.error(error);
+    return[];
   } 
   
 };
